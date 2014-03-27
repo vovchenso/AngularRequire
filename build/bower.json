@@ -1,0 +1,22 @@
+{
+  "name": "Defult Title",
+  "version": "0.0.1",
+  "authors": [
+      "Vladimir Maluchenko"
+    ],
+  "description": "Deafult description",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    ".node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "latest",
+    "less": "latest",
+    "angular": "latest",
+    "angular-route": "latest"
+  }
+}
