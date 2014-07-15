@@ -18,11 +18,11 @@
 
         angular.module(APP.CONFIG.Main.appName, [
                 'ui.router',
-                'poker.filters',
-                'poker.services',
-                'poker.directives',
-                'poker.controllers',
-                'poker.models'
+                'app.filters',
+                'app.services',
+                'app.directives',
+                'app.controllers',
+                'app.models'
             ])
             .config(routers)
             .config(Logger);
